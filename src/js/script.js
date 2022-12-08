@@ -17,11 +17,6 @@ document.addEventListener("DOMContentLoaded", function(){
     divLink.forEach(link => link.addEventListener("click", () => divCollapse.classList.remove("show")))
 
 
-
-
-
-
-    
     window.addEventListener("scroll", addShadow)
 })
 
